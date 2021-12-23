@@ -10,3 +10,13 @@ No
 No
 تكليف 4
 Yes
+
+تكليف 5
+title => yes
+href => no
+src => no
+hidden => yes
+charset => no
+class => yes
+id => yes
+type => no
