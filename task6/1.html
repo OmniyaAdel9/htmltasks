@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="test.py" method="get">
+        <div>
+            <label for="name"> UserName </label>
+            <br>
+            <input id="name" type="text" placeholder="Your Name" name="username" required>
+        </div>
+       
+        <hr>
+
+        <div>
+            <label for="pass"> Password </label>
+            <br>
+            <input id="pass" type="password" placeholder="Your Password" name="pass">
+        </div>
+       
+        <hr>
+
+        <button type="button">Save</button>
+
+        <div>
+            <label for="mobile"> Mobile </label>
+            <br>
+            <input id="mobile" type="text" placeholder="Your Mobile Number" name="mobile">
+        </div>
+        
+        <hr>
+
+        <div>
+            <label for="email"> Email </label>
+            <br>
+            <input id="email" type="email" placeholder="Your Email" name="email" required>
+        </div>
+        
+        <hr>
+
+        <div>
+            <label for="sub">Subject</label>
+            <br>
+            <input id="sub" type="text" placeholder="Your Subject" name="subject">
+        </div>
+        
+        <hr>
+        <input type="number" value="1" hidden>
+        <input type="reset" name="Empty Form">
+
+        <!-- <input type="submit" name="Send Data"> -->
+        <button type="submit">Send Data</button>
+    </form>
+</body>
+</html>
